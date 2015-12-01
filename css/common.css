@@ -1,0 +1,306 @@
+
+@media screen and (max-width: 360px) {
+    .btn-eng{
+        margin-right: 0px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .area-apply{
+        min-height: 264px !important;
+        padding: 5px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .area-apply{
+        min-height: 20px !important;
+        margin-top: 10px;
+        padding: 5px !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .features .container{
+        padding: 0 !important;
+    }
+    .features .carousel-caption{
+        background: none !important;
+        color: #FEBB15;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .team .wrapper, 
+    .about .wrapper {
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .appcication-participant .wrapper {
+        
+    }
+}
+@media screen and (max-width: 767px) {
+    .team .wrapper,
+    .about .wrapper {
+        background-attachment: inherit !important;
+    }
+    .table{
+        width: 300px;
+        margin: 50px auto !important;
+    }
+}
+@font-face {
+    font-family: 'FuturaFuturisClight';
+    src: url('../fonts/futuralightc.eot');
+	src: local('☺'), url('../fonts/futuralightc.woff') format('woff'), url('../fonts/futuralightc.ttf') format('truetype'),    url('../fonts/futuralightc.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaFuturisCBold';
+    src: url('../fonts/FuturaFuturisC-Bold.eot');
+	src: local('☺'), url('../fonts/FuturaFuturisC-Bold.woff') format('woff'), url('../fonts/FuturaFuturisC-Bold.ttf') format('truetype'), url('../fonts/FuturaFuturisC-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url('../fonts/FuturaFuturisC.eot');
+	src: local('☺'), url('../fonts/FuturaFuturisC.woff') format('woff'), url('../fonts/FuturaFuturisC.ttf') format('truetype'), url('../fonts/FuturaFuturisC.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*страница с лого*/
+.logo-duck{
+    display: block;
+    width: 70%;
+    margin: 60px auto;
+}
+.btn-eng, .btn-ru{
+    background: transparent !important;
+    color: white !important;
+    border: 2px solid #febb15 !important;
+    font-size: 20px !important;
+}
+.btn-eng{
+    margin-right: 90px;
+}
+
+/*color*/
+.iswim-text-color{
+    color: #3F2E05 !important;   
+}
+.iswim-color{
+    background-color: #FEBB15;
+}
+
+/*navbar*/
+.navbar-wrapper .navbar{
+    border-radius: 0 !important;
+    border: none !important;
+}
+.navbar li{
+    text-transform: uppercase;
+}
+.navbar-default{
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+.navbar .active a{
+    background: #3F2E05 !important;
+    color: #FEBB15 !important;
+}
+.navbar-default .navbar-toggle{
+    border: 1px solid #3F2E05;
+}
+
+/*carousel*/
+.carousel-inner > .item > img{
+    height: auto !important;
+    top:-60px !important;
+}
+.carousel-caption{
+    background-color: rgba(51, 51, 51, 0.22); 
+    font-family: FuturaFuturisC;
+}
+.carousel img{
+    background-size: cover;
+}
+
+/*button*/
+.btn-apply{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 90%;
+    border: none;
+    font-size: 30px;
+    color: #3F2E05;
+    cursor: pointer;
+    transition: .4s;
+}
+.btn-apply:hover{
+    background: #3F2E05;
+    color: #FEBB15;
+}
+
+/*стили главной страницы*/
+html,body {
+    height:100%;
+}
+html,body,section{
+    position: relative;
+}
+.body-padding{
+    padding-top: 50px;  
+    font-family:  ;
+}
+.specification {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.specification .title{
+    font-family: FuturaFuturisC;
+}
+.mass-media{
+    margin-bottom: 70px;
+}
+.table{
+    margin-bottom: 50px;
+}
+.table td {
+    border: none !important;
+}
+.modal-body img{
+    margin-bottom: 20px;
+}
+.footer{
+    line-height: 60px !important;
+}
+.footer p{
+    margin-bottom: 0 !important;
+}
+
+.featurette-heading{
+    margin-bottom: 30px;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.unuppercase{
+    text-transform: none !important;
+}
+
+/*делаем обертку с фиксированными фонами*/
+.appcication-foto .wrapper,
+.team .wrapper,
+.about .wrapper {
+    position: relative;
+    width:100%;
+    height:100%;
+    margin-bottom: 50px;
+    padding: 100px 0;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    z-index:-1;
+}
+.appcication-foto .wrapper:before,
+.team .wrapper:before,
+.about .wrapper:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/Mask%20Copy.png'); 
+}
+.about .wrapper{
+    background-image: url('../img/workshop.jpg');
+}
+.team .wrapper {
+    background-image: url('../img/IMG_0302-2.jpg');
+}
+.appcication-foto .wrapper{
+    background-image: url('../img/team1-1.jpg');
+    margin-bottom: 0px !important;
+    background-size: cover;
+    background-attachment: inherit;
+}
+.applycation-volunteer-page .appcication-foto .wrapper{
+    background-image: url('../img/team1-2.jpg') !important;
+    margin-bottom: 0px !important;
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+/*делаем обертку для фото партнеров и СМИ*/
+.mass-media .wrapper,
+.partner .wrapper{
+    min-height: 250px;
+    position: relative;
+}
+.mass-media .wrapper img,
+.partner .wrapper img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.partner {
+    margin-bottom: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.person{
+    min-height: 450px;
+    text-align: center;
+}
+
+/*стили для форм*/
+.form h1{
+    margin-bottom: 40px;
+}
+.form .form-group{
+    margin-top: 40px;
+}
+.has-success input{
+    border: 2px solid green;
+}
+.has-error input, .has-error textarea{
+    border: 2px solid rgba(255,0,34,1);
+}
+.tooltip{
+    z-index: 1;
+    position: absolute;
+}
+.applycation-page{
+    height: 100%;
+}
+.applycation-page .applycation-page_wrapper,
+.area-apply{
+    background: url('../img/pattern.jpg');
+}
+.applycation-volunteer-page .applycation-volunteer-page_wrapper{
+    background: url('../img/pattern2.jpg');
+}
+.area-apply{
+    min-height: 320px;
+    padding: 10px;
+    border: 2px solid #3F2E05;
+}
+.obligatory-field{
+    color: red;
+}
+.area-apply h2{
+    font-family: FuturaFuturisC;
+}
+.message{
+    color: red;
+}
